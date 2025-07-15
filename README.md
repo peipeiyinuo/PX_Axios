@@ -6,6 +6,9 @@
 
 - ✅ Axios 完全兼容，支持所有标准配置
 - ✅ 自动注入 `token`，支持配置获取逻辑
+  - 默认行为：自动从 sessionStorage 读取 token 字段，并添加到请求头的 Authorization 中。
+  - 支持通过 getToken 选项完全自定义 Token 获取逻辑（如从 localStorage 或 Vuex 中读取）。
+  - 如需更改 Token 的请求头字段，直接在 headers 中配置即可覆盖默认行为
 - ✅ 支持 `FormData` 递归处理嵌套对象
 - ✅ 响应支持 `json-bigint` 大数解析
 - ✅ 支持全局 headers 设置与清除
