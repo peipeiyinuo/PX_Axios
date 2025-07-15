@@ -3,6 +3,7 @@
     "declaration": true,
     "outDir": "dist",
     "moduleResolution": "node16",
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true
   }
 }
