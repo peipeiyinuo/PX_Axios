@@ -1,0 +1,21 @@
+{
+  "name": "pxaxios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "网络请求基础封装",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "esbuild": "^0.25.6",
+    "jest": "^30.0.4",
+    "rollup": "^4.45.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run test && npm run build",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  }
+}
