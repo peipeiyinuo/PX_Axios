@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "declaration": true,
-    "outDir": "dist",
-    "moduleResolution": "node16",
-    "allowImportingTsExtensions": true,
-    "esModuleInterop": true
+    "outDir": "dist"
   }
 }
