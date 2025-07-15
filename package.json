@@ -1,6 +1,6 @@
 {
-  "name": "pxaxios",
-  "version": "1.0.2",
+  "name": "px-axios",
+  "version": "1.0.0",
   "type": "module",
   "description": "网络请求基础封装",
   "main": "./dist/index.js",
